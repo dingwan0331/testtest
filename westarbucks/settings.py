@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'corsheaders'
+    'corsheaders',
+    'products', 
 ]
 # 웹통시시 필요한 앱들 장고에서 설치해줌
 # 필요한 앱을 설치시 여기서 경로를 추가해야한다.
