@@ -61,7 +61,7 @@ MIDDLEWARE = [
 # 클라이언트가 요청을 보낼시 미들웨어에서 방화벽or여가장치성 역할을 해주며 통과하지못할경우 요청이 이루어지지 않음
 # 설치한 앱중 미들웨어 역할을 하는 앱이 있을경우 여기에 추가를 해줘야한다.
 
-ROOT_URLCONF = 'westarbucks.urls'
+ROOT_URLCONF = 'initial-setting.urls'
 # 외부에서 들어오는 모든 url들이 여기에 나와있는 곳으로 들어와서 여기서 나눠지게된다.
 # 프로젝트명/urls.py 이다.
 
@@ -82,7 +82,7 @@ TEMPLATES = [
 ]
 # 템플릿 기능 API 생성하는 백엔드한테는 필요 X
 
-WSGI_APPLICATION = 'westarbucks.wsgi.application'
+WSGI_APPLICATION = 'initial-setting.wsgi.application'
 # 
 
 # Database
